@@ -1,0 +1,31 @@
+{
+  "name": "universal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "json": "npx json-server db/db.json --port 3100",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3",
+    "next": "13.5.11",
+    "react": "^18",
+    "react-dom": "^18",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.11",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+
+}

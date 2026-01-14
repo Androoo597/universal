@@ -1,0 +1,67 @@
+.field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boardsBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.shipBox {
+  display: flex;
+}
+
+.boardCeil {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+  background-color: aqua;
+}
+
+.symbols {
+  width: 500px;
+  grid-template-columns: repeat(10, 1fr);
+  display: grid;
+  align-content: center;
+}
+
+.symbols > div {
+  margin: 16px auto;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.numbers {
+  height: 552px;
+  display: grid;
+  grid-template-rows: repeat(11, 1fr);
+}
+
+.numbers > div {
+  margin: auto 10px;
+}
+
+.seaField {
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  border: 1px solid #000;
+}
+
+.seaField > div {
+  border: 1px solid #000;
+}
+
+.seaField > div:hover {
+  background-color: #cccccc;
+}

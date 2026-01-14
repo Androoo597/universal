@@ -1,0 +1,18 @@
+.root {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.menuBox {
+}
+
+.menuList {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.listItem {
+}
